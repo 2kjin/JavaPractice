@@ -1,6 +1,8 @@
+package Operator;
+
 import java.util.Scanner;
 
-public class Java1 {
+public class Q1 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -12,5 +14,6 @@ public class Java1 {
 
         System.out.println("sum : " + sum);
         System.out.println("avg : " + avg);
+
     }
 }
