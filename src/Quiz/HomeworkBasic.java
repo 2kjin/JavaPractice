@@ -21,7 +21,7 @@ public class HomeworkBasic {
 
   void method3(){
     int sum ;
-    (sum > 100) ? 100 : 0;
+//    (sum > 100) ? 100 : 0;
   }
 
   void method4(){
@@ -37,14 +37,14 @@ public class HomeworkBasic {
   }
 
   void method6(){
-    public class SampleProgram{
-      public static void main(String[] args) {
-        int k = 10;
-        int j = 20;
-        int res = k + j;
-        System.out.println(res);
-      }
-    }
+//    public class SampleProgram{
+//      public static void main(String[] args) {
+//        int k = 10;
+//        int j = 20;
+//        int res = k + j;
+//        System.out.println(res);
+//      }
+//    }
   }
 
   void method7(){
@@ -83,12 +83,12 @@ public class HomeworkBasic {
   }
 
   void method15(){
-      int add(int a, int b) {
-        return a + b;
-      }
-      int add(int a, int b, int c) {
-        return a + b + c;
-    }
+//      int add(int a, int b) {
+//        return a + b;
+//      }
+//      int add(int a, int b, int c) {
+//        return a + b + c;
+//    }
   }
 
   void method16(){
