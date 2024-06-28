@@ -1,4 +1,4 @@
-package Quiz.MorningQuiz240627;
+package Quiz.MorningQuiz240627.Q20;
 
 import java.util.Scanner;
 
