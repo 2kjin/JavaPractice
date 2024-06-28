@@ -2,7 +2,7 @@ package Quiz.MorningQuiz240627;
 
 import java.util.Scanner;
 
-public class Main {
+public class referenceQ9 {
 
   public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class Main {
 
     boolean quit = false;
     while (!quit){
-      Main m = new Main();
+      referenceQ9 m = new referenceQ9();
       m.menu();
       System.out.print("선택> ");
       int num = sc.nextInt();
