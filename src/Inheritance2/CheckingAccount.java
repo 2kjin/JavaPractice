@@ -1,7 +1,7 @@
 package Inheritance2;
 
 public class CheckingAccount extends Account{
-  String cardNo;
+  private String cardNo;
 
   public CheckingAccount(){
     super();
@@ -13,15 +13,25 @@ public class CheckingAccount extends Account{
   }
 
   public void pay(String cardNo, long amount){
-    if( cardNo.equals(getAccId()) || amount < getBalance() ){
+    if( cardNo.equals(this.cardNo) && amount < getBalance() ){
       withdraw(amount);
     }else {
       System.out.println("지불이 불가능합니다.");
     }
   }
 
+  public String getCardNo() {
+    return cardNo;
+  }
+
+  public void setCardNo(String cardNo) {
+    this.cardNo = cardNo;
+  }
+
   @Override
   public void calcRate() {
+
+
 
   }
 }
