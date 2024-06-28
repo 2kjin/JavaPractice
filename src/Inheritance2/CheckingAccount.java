@@ -7,7 +7,7 @@ public class CheckingAccount extends Account{
     super();
   }
 
-  public CheckingAccount(String accId, long balance, String ownerName, String cardNo) {
+  public CheckingAccount(String accId, String ownerName, long balance, String cardNo) {
     super(accId, balance, ownerName);
     this.cardNo = cardNo;
   }
