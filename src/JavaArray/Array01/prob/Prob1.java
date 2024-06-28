@@ -1,4 +1,4 @@
-package JavaArray.ArrayBasic01.prob;
+package JavaArray.Array01.prob;
 
 public class Prob1 {
 
@@ -35,7 +35,7 @@ public class Prob1 {
 		System.out.println(" ( 배열 ib ) ");
 		System.out.println(" 홀수 합 : " + ibOddSum);
 		System.out.println(" 짝수 합 : " + ibEvenSum);
-	
+
 	}
 	
 	

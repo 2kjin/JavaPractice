@@ -14,7 +14,7 @@ public class CheckingAccount extends Account{
 
   public void pay(String cardNo, long amount){
     if( cardNo.equals(this.cardNo) && amount < getBalance() ){
-      withdraw(amount);
+      this.withdraw(amount);
     }else {
       System.out.println("지불이 불가능합니다.");
     }
