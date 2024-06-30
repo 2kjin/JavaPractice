@@ -16,5 +16,19 @@ public class CalculateRates {
 
 	public void calculate(int[] nums) throws Exception {
 		// calculate 메소드 구현
+		int sum = 0;
+
+		for ( int i : nums){
+			sum += i;
+		}
+
+		for (int i : nums){
+			double ratio = (i / (double) sum) * 100;
+			for (int j = 0; j < (int)ratio; j++){
+				System.out.print("*");
+			}
+			System.out.printf("(%.1f%%)\n", ratio);
+		}
+		System.out.println();
 	}
 }

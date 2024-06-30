@@ -17,13 +17,24 @@ public class Prob10 {
 	public int[][] sub(int[][] a, int[][] b, int[][] c){
 			
 		/* 이곳에 프로그램을 완성하십시오. */
+		for (int i = 0; i < a.length ; i++){
+			for (int j = 0; j < a[i].length; j++){
+				c[i][j] = a[i][j] - b[i][j];
+			}
+		}
+		return c;
 
-    return a;
   }
 	
 	public void prn(int[][] c){
 		
-		/* 이곳에 프로그램을 완성하십시오. */ 
+		/* 이곳에 프로그램을 완성하십시오. */
+		for (int[] row : c){
+			for (int i : row) {
+				System.out.print(i + " ");
+			}
+			System.out.println();
+		}
 
 	
 	}
