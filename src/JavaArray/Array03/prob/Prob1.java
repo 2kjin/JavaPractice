@@ -17,19 +17,21 @@ public class Prob1 {
 	public void calc(int[] ix){
 		
 		// 구현하시오.----------------------------- 
+		int OddSum = 0;
+		int EvenSum = 0;
 
+		for(int i : ix){
+			if( i % 2 == 0){
+				EvenSum += i;
+			}else {
+				OddSum += i;
+			}
+		}
 
-	
-
-
-
-
-
-
-
+		System.out.println(" 홀수 합 : " + OddSum);
+		System.out.println(" 짝수 합 : " + EvenSum);
 
 		//---------------------------------------
 		
 	}
-
 }
