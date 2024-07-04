@@ -6,13 +6,11 @@ public class Dog extends Animal{
     super(speed);
   }
 
-  @Override
   public void run(int hours) {
-    distance += speed * (hours / 2.0);
+    this.distance = speed * (hours / 2.0);
   }
 
-  @Override
   public double getDistance() {
-    return super.getDistance();
+    return getDistance();
   }
 }

@@ -7,13 +7,13 @@ public class Chicken extends Animal implements Cheatable {
   }
 
   @Override
-  public void run(int hours) {
-    distance += speed * hours;
+  void run(int hours) {
+    this.distance = this.speed * hours;
   }
 
-  @Override
   public void fly() {
-    speed *= 2;
+    this.speed *= 2;
+
   }
 }
 
