@@ -1,3 +1,4 @@
+package API._04;
 
 public class FindCharacters {
 
@@ -9,6 +10,7 @@ public class FindCharacters {
 
 	}
 	public int countChar(String str, char c) {
-		// Method를 완성하세요...		
+		// Method를 완성하세요...
+		return 0;
 	}
 }

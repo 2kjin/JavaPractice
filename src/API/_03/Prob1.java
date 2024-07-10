@@ -1,4 +1,4 @@
-package midterm;
+package API._03;
 
 public class Prob1 {
 	
@@ -21,6 +21,10 @@ public class Prob1 {
 	
 	public static String myReplace(String str, char oldChar, char newChar){
 		// 이 부분을 구현하시오.
+		for(int i = 0; i < str.length() ; i ++){
+//			if()
+		}
+		return "";
 	}
 	
 }
